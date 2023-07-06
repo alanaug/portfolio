@@ -1,0 +1,107 @@
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDC435;
+    padding: 25px;
+    border-bottom: 2px solid #362d17;
+}
+
+body {
+    background-color: #ebdebe;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li, button {
+    margin: 5px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: 1px solid #aaa18a;
+    background: #362d17;
+}
+
+a, button {
+    font-family: 'Asap', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Asap', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    align-items: flex-start;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 531px) and (max-width: 1024px){
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 530px){
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.primeira-secao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: solid 2px #362d17;
+}
+
+.texto1 {
+    margin-left: 50px;
+    max-width: 700px;
+}
+
+button {
+    margin-top: 50px;
+}
+
+#nome {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    margin: 125px 0px 50px 50px;
+}
+
+#hashtags {
+    margin: 50px 0px 0px 50px;
+    font-weight: bold
+}
+
+#button {
+    margin: 0 0 50px 50px;
+
+}
