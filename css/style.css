@@ -108,7 +108,7 @@ button {
 
 .fold-linha-do-tempo {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
@@ -152,8 +152,17 @@ legend {
     margin-top: 90px;
 }
 
-footer {
+.title-fold-projetos{
+    display: flex;
+    justify-content: center;
     background-color: #c8e3e6;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: #e4e4de;
 }
 
 .blue {
@@ -161,4 +170,35 @@ footer {
     display: flex;
     justify-content: space-between;
     border-top: solid 2px #362d17;
+}
+
+.gray {
+    background-color: #bbbfc0;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px #393938;
+}
+
+.fold-meus-projetos {
+    display: flex;
+    justify-content: center;
+    background-color: #c8e3e6;
+
+}
+
+.projetos {
+    width: 225px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #82b3bf;
+}
+
+.linha {
+    width: 100%;
+    border: solid 2px #362d17;
+}
+
+.fold-mais-infos {
+    background-color: #e4e4de;
 }
