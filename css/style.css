@@ -105,3 +105,60 @@ button {
     margin: 0 0 50px 50px;
 
 }
+
+.fold-linha-do-tempo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background-color: #d0e6c8;
+    padding-bottom: 75px;
+
+}
+
+.card {
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    width: 1100px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #92bf82;
+    padding: 30px;
+    margin: 30px 15px 30px 25px;
+    gap: 10px 20px;
+    border: solid 2px #362d17;
+
+}
+
+.image {
+    border-radius: 5px;
+}
+
+legend {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.green {
+    background-color: #92bf82;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-fold {
+    margin-top: 90px;
+}
+
+footer {
+    background-color: #c8e3e6;
+}
+
+.blue {
+    background-color: #82b3bf;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px #362d17;
+}
