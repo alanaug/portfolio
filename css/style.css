@@ -75,7 +75,6 @@ p {
 
 .primeira-secao{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     padding-bottom: 25px;
     border-bottom: solid 2px #362d17;
@@ -225,4 +224,8 @@ footer {
 .credits {
     background-color: #82b3bf;
     margin-top: 0px;
+}
+
+.purple {
+    background-color: purple;
 }
