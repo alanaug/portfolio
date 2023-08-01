@@ -30,7 +30,7 @@ nav ul li, button {
     padding: 8px 24px;
     border-radius: 20px;
     border: 1px solid #aaa18a;
-    background: #362d17;
+    background: #362d18;
 }
 
 a, button {
@@ -67,6 +67,32 @@ p {
         flex-direction: column;
     }
 
+    .primeira-secao {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contaner green {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fold-linha-do-tempo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fold-meus-projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     nav ul {
         display: flex;
         flex-direction: column;
@@ -81,8 +107,8 @@ p {
 }
 
 .texto1 {
-    margin-left: 50px;
-    max-width: 700px;
+    margin-left: 30px;
+    max-width: 900px;
 }
 
 button {
@@ -138,7 +164,7 @@ button {
 legend {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-    font-weight: bold;
+
 }
 
 .green {
@@ -200,25 +226,16 @@ footer {
 }
 
 .fold-mais-infos {
-    background-color: #c8e3e6;
     display: flex;
-    flex-direction: row;
+    background-color: #c8e3e6;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .redes {
-    padding-top: 50px;
-    margin: 0px 30px 0px 30px;
+    padding: 25px;
     text-align: center;
-
-}
-
-.title-fold-footer{
-    display: flex;
-    justify-content: center;
-    padding-top: 110px;
-    background-color: #c8e3e6;
 }
 
 .credits {
@@ -226,6 +243,3 @@ footer {
     margin-top: 0px;
 }
 
-.purple {
-    background-color: purple;
-}
