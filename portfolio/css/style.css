@@ -1,0 +1,245 @@
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDC435;
+    padding: 25px;
+    border-bottom: 2px solid #362d17;
+}
+
+body {
+    background-color: #ebdebe;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li, button {
+    margin: 5px;
+    padding: 8px 24px;
+    border-radius: 20px;
+    border: 1px solid #aaa18a;
+    background: #362d18;
+}
+
+a, button {
+    font-family: 'Asap', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Asap', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    align-items: flex-start;
+}
+
+p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+}
+
+@media (min-width: 531px) and (max-width: 1024px){
+    .container, .primeira-secao, .fold-linha-do-tempo, .card, .fold-meus-projetos, nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fold-meus-projetos {
+        align-items: center;
+    }
+
+    .fold-mais-infos {
+        display: flex;
+        background-color: #c8e3e6;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .redes {
+        padding: 25px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 530px){
+
+    .container, .primeira-secao, .fold-linha-do-tempo, .card, .fold-meus-projetos, nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fold-meus-projetos {
+        align-items: center;
+    }
+
+    .fold-mais-infos {
+        display: flex;
+        background-color: #c8e3e6;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .redes {
+        padding: 25px;
+        text-align: center;
+    }
+}
+
+.primeira-secao{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: solid 2px #362d17;
+}
+
+.texto1 {
+    margin-left: 30px;
+    margin-right: 30px;
+    max-width: 900px;
+}
+
+button {
+    margin-top: 50px;
+}
+
+#nome {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    margin: 55px 0px 50px 50px;
+}
+
+#hashtags {
+    margin: 50px 30px 0px 30px;
+    font-weight: bold
+}
+
+#button {
+    margin: 0 0 50px 50px;
+
+}
+
+.fold-linha-do-tempo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    background-color: #d0e6c8;
+    padding-bottom: 75px;
+
+}
+
+.card {
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    width: 1100px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #92bf82;
+    padding: 30px;
+    margin: 30px 15px 30px 25px;
+    gap: 10px 20px;
+    border: solid 2px #362d17;
+
+}
+
+.image {
+    border-radius: 5px;
+}
+
+legend {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+
+}
+
+.green {
+    background-color: #92bf82;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-fold {
+    margin-top: 90px;
+}
+
+.title-fold-projetos{
+    display: flex;
+    justify-content: center;
+    background-color: #e4e4de;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: #c8e3e6;
+}
+
+.blue {
+    background-color: #82b3bf;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px #362d17;
+}
+
+.gray {
+    background-color: #bbbfc0;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px #393938;
+}
+
+.fold-meus-projetos {
+    display: flex;
+    justify-content: center;
+    background-color: #e4e4de;
+    padding-bottom: 50px;
+
+}
+
+.projetos {
+    width: 225px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #bbbfc0;
+}
+
+.linha {
+    width: 100%;
+    border: solid 2px #362d17;
+}
+
+.fold-mais-infos {
+    padding-top: 30px;
+    display: flex;
+    background-color: #c8e3e6;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes {
+    padding: 25px;
+    flex-direction: row;
+    text-align: center;
+}
+
+.credits {
+    background-color: #82b3bf;
+    margin-top: 0px;
+}
+
