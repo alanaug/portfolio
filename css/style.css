@@ -51,51 +51,37 @@ p {
 }
 
 @media (min-width: 531px) and (max-width: 1024px){
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    nav ul li {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 530px){
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .primeira-secao {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .contaner green {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fold-linha-do-tempo {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card {
+    .container, .primeira-secao, .fold-linha-do-tempo, .card, .fold-meus-projetos, nav ul {
         display: flex;
         flex-direction: column;
     }
 
     .fold-meus-projetos {
-        display: flex;
-        flex-direction: column;
         align-items: center;
     }
 
-    nav ul {
+    .fold-mais-infos {
+        display: flex;
+        background-color: #c8e3e6;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .redes {
+        padding: 25px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 530px){
+
+    .container, .primeira-secao, .fold-linha-do-tempo, .card, .fold-meus-projetos, nav ul {
         display: flex;
         flex-direction: column;
+    }
+
+    .fold-meus-projetos {
+        align-items: center;
     }
 
     .fold-mais-infos {
